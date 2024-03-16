@@ -1,0 +1,4038 @@
+---> int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2104]
+    Opened input file
+    Opened vars file
+    Parsing ...
+    Processing line 1!
+    (LEX)TK_Integer=1010 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"BASIC LIBRARY--'HANGMN'--18-JUL-70"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="BASIC LIBRARY--'HANGMN'--18-JUL-70"
+    Processing line 2!
+    (LEX)TK_Integer=1020 YYSTATE=0
+    Processing line 3!
+    (LEX)TK_Integer=1030 YYSTATE=0
+    Processing line 4!
+    (LEX)TK_Integer=1040 YYSTATE=0
+    (LEX)TK_Randomize='RANDOMIZE'
+    Processing line 5!
+    (LEX)TK_Integer=1050 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S7
+    (normal)basiclval.stype='S7'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 6!
+    (LEX)TK_Integer=1060 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"DO YOU WANT TO SEE THE INSTRUCTIONS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DO YOU WANT TO SEE THE INSTRUCTIONS"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 7!
+    (LEX)TK_Integer=1070 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=N7$
+    (normal)basiclval.stype='N7$'
+    Processing line 8!
+    (LEX)TK_Integer=1080 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=N7$
+    (normal)basiclval.stype='N7$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"N"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1170 YYSTATE=3
+    Processing line 9!
+    (LEX)TK_Integer=1090 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 10!
+    (LEX)TK_Integer=1100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"THIS GAME IS SOMETHING LIKE HANGMAN.  THE MACHINE CHOOSES"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THIS GAME IS SOMETHING LIKE HANGMAN.  THE MACHINE CHOOSES"
+    Processing line 11!
+    (LEX)TK_Integer=1110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"A WORD OUT OF ITS STORAGE AND YOU ARE REQUIRED TO GUESS THE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="A WORD OUT OF ITS STORAGE AND YOU ARE REQUIRED TO GUESS THE"
+    Processing line 12!
+    (LEX)TK_Integer=1120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"WORD LETTER BY LETTER.  AFTER EACH MISTAKE, YOU WILL BE ASKED"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="WORD LETTER BY LETTER.  AFTER EACH MISTAKE, YOU WILL BE ASKED"
+    Processing line 13!
+    (LEX)TK_Integer=1130 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"WHETHER YOU WANT TO SEE A PICTURE OF YOURSELF.  THE MORE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="WHETHER YOU WANT TO SEE A PICTURE OF YOURSELF.  THE MORE"
+    Processing line 14!
+    (LEX)TK_Integer=1140 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"MISTAKES YOU MAKE, THE LESS OF YOU THERE WILL BE. UNTIL"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="MISTAKES YOU MAKE, THE LESS OF YOU THERE WILL BE. UNTIL"
+    Processing line 15!
+    (LEX)TK_Integer=1150 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"AFTER 9 MISTAKES, YOU WILL BE ALL GONE, AND YOU WILL"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="AFTER 9 MISTAKES, YOU WILL BE ALL GONE, AND YOU WILL"
+    Processing line 16!
+    (LEX)TK_Integer=1160 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"LOSE."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="LOSE."
+    Processing line 17!
+    (LEX)TK_Integer=1170 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T2
+    (normal)basiclval.stype='T2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 18!
+    (LEX)TK_Integer=1180 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 19!
+    (LEX)TK_Integer=1190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"WOULD YOU LIKE TO SEE THE WHOLE PICTURE BEFORE THE GAME STARTS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="WOULD YOU LIKE TO SEE THE WHOLE PICTURE BEFORE THE GAME STARTS"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 20!
+    (LEX)TK_Integer=1200 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=Q9$
+    (normal)basiclval.stype='Q9$'
+    Processing line 21!
+    (LEX)TK_Integer=1210 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=Q9$
+    (normal)basiclval.stype='Q9$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2030 YYSTATE=3
+    Processing line 22!
+    (LEX)TK_Integer=1220 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T2
+    (normal)basiclval.stype='T2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 23!
+    (LEX)TK_Integer=1230 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S7
+    (normal)basiclval.stype='S7'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1430 YYSTATE=3
+    Processing line 24!
+    (LEX)TK_Integer=1240 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Q
+    (normal)basiclval.stype='Q'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 25!
+    (LEX)TK_Integer=1250 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 26!
+    (LEX)TK_Integer=1260 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=200 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 27!
+    (LEX)TK_Integer=1270 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=F$
+    (normal)basiclval.stype='F$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=2000 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 28!
+    (LEX)TK_Integer=1280 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=20 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 29!
+    (LEX)TK_Integer=1290 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=20 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 30!
+    (LEX)TK_Integer=1300 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=200 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 31!
+    (LEX)TK_Integer=1310 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 32!
+    (LEX)TK_Integer=1320 YYSTATE=0
+    (LEX)TK_Read='READ'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 33!
+    (LEX)TK_Integer=1330 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1420 YYSTATE=3
+    Processing line 34!
+    (LEX)TK_Integer=1340 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Processing line 35!
+    (LEX)TK_Integer=1350 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O
+    (normal)basiclval.stype='O'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 36!
+    (LEX)TK_Integer=1360 YYSTATE=0
+    (LEX)TK_Read='READ'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=F$
+    (normal)basiclval.stype='F$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O
+    (normal)basiclval.stype='O'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 37!
+    (LEX)TK_Integer=1370 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O
+    (normal)basiclval.stype='O'
+    Processing line 38!
+    (LEX)TK_Integer=1380 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Q
+    (normal)basiclval.stype='Q'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Q
+    (normal)basiclval.stype='Q'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 39!
+    (LEX)TK_Integer=1390 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=L
+    (normal)basiclval.stype='L'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 40!
+    (LEX)TK_Integer=1400 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 41!
+    (LEX)TK_Integer=1410 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1320 YYSTATE=3
+    Processing line 42!
+    (LEX)TK_Integer=1420 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 43!
+    (LEX)TK_Integer=1430 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O1
+    (normal)basiclval.stype='O1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 44!
+    (LEX)TK_Integer=1440 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 45!
+    (LEX)TK_Integer=1450 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O6
+    (normal)basiclval.stype='O6'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 46!
+    (LEX)TK_Integer=1460 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z2
+    (normal)basiclval.stype='Z2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 47!
+    (LEX)TK_Integer=1470 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O6
+    (normal)basiclval.stype='O6'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=R
+    (normal)basiclval.stype='R'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 48!
+    (LEX)TK_Integer=1480 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z2
+    (normal)basiclval.stype='Z2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=F$
+    (normal)basiclval.stype='F$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=O6
+    (normal)basiclval.stype='O6'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z2
+    (normal)basiclval.stype='Z2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 49!
+    (LEX)TK_Integer=1490 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z2
+    (normal)basiclval.stype='Z2'
+    Processing line 50!
+    (LEX)TK_Integer=1500 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=U$
+    (normal)basiclval.stype='U$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=26 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 51!
+    (LEX)TK_Integer=1510 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=E$
+    (normal)basiclval.stype='E$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=26 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 52!
+    (LEX)TK_Integer=1520 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 53!
+    (LEX)TK_Integer=1530 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Processing line 54!
+    (LEX)TK_Integer=1540 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='" - "'
+    Processing line 55!
+    (LEX)TK_Integer=1550 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 56!
+    (LEX)TK_Integer=1560 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1740 YYSTATE=3
+    Processing line 57!
+    (LEX)TK_Integer=1570 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 58!
+    (LEX)TK_Integer=1580 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"WHAT IS YOUR GUESS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="WHAT IS YOUR GUESS"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 59!
+    (LEX)TK_Integer=1590 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 60!
+    (LEX)TK_Integer=1600 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=G$
+    (normal)basiclval.stype='G$'
+    Processing line 61!
+    (LEX)TK_Integer=1610 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Processing line 62!
+    (LEX)TK_Integer=1620 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=G$
+    (normal)basiclval.stype='G$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1640 YYSTATE=3
+    Processing line 63!
+    (LEX)TK_Integer=1630 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1650 YYSTATE=3
+    Processing line 64!
+    (LEX)TK_Integer=1640 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 65!
+    (LEX)TK_Integer=1650 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Processing line 66!
+    (LEX)TK_Integer=1660 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1690 YYSTATE=3
+    Processing line 67!
+    (LEX)TK_Integer=1670 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=E$
+    (normal)basiclval.stype='E$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=G$
+    (normal)basiclval.stype='G$'
+    Processing line 68!
+    (LEX)TK_Integer=1680 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 69!
+    (LEX)TK_Integer=1690 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T
+    (normal)basiclval.stype='T'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Processing line 70!
+    (LEX)TK_Integer=1700 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=G$
+    (normal)basiclval.stype='G$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T
+    (normal)basiclval.stype='T'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1720 YYSTATE=3
+    Processing line 71!
+    (LEX)TK_Integer=1710 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1730 YYSTATE=3
+    Processing line 72!
+    (LEX)TK_Integer=1720 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T
+    (normal)basiclval.stype='T'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=G$
+    (normal)basiclval.stype='G$'
+    Processing line 73!
+    (LEX)TK_Integer=1730 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T
+    (normal)basiclval.stype='T'
+    Processing line 74!
+    (LEX)TK_Integer=1740 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 75!
+    (LEX)TK_Integer=1750 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Processing line 76!
+    (LEX)TK_Integer=1760 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = 'B'
+        yytext     = ' '
+        LastToken  = '303'
+    (LEX)TK_SName(PrintStmt)=B$
+        printfield = 2
+        yytext     = '('
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Name(PrintStmt)=I
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 77!
+    (LEX)TK_Integer=1770 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 78!
+    (LEX)TK_Integer=1780 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '" "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    Processing line 79!
+    (LEX)TK_Integer=1790 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G6
+    (normal)basiclval.stype='G6'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 80!
+    (LEX)TK_Integer=1800 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = 'E'
+        yytext     = ' '
+        LastToken  = '303'
+    (LEX)TK_SName(PrintStmt)=E$
+        printfield = 2
+        yytext     = '('
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Name(PrintStmt)=G6
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 81!
+    (LEX)TK_Integer=1810 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G6
+    (normal)basiclval.stype='G6'
+    Processing line 82!
+    (LEX)TK_Integer=1820 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 83!
+    (LEX)TK_Integer=1830 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V
+    (normal)basiclval.stype='V'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 84!
+    (LEX)TK_Integer=1840 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=9 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1970 YYSTATE=3
+    Processing line 85!
+    (LEX)TK_Integer=1850 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"I WIN..."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="I WIN..."
+    Processing line 86!
+    (LEX)TK_Integer=1860 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"THE CORRECT ANSWER IS "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THE CORRECT ANSWER IS "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 87!
+    (LEX)TK_Integer=1870 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z2
+    (normal)basiclval.stype='Z2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Processing line 88!
+    (LEX)TK_Integer=1880 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = 'A'
+        yytext     = ' '
+        LastToken  = '303'
+    (LEX)TK_SName(PrintStmt)=A$
+        printfield = 2
+        yytext     = '('
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_Name(PrintStmt)=Z2
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 89!
+    (LEX)TK_Integer=1890 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z2
+    (normal)basiclval.stype='Z2'
+    Processing line 90!
+    (LEX)TK_Integer=1900 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 91!
+    (LEX)TK_Integer=1910 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '" DO YOU WANT TO PLAY AGAIN"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" DO YOU WANT TO PLAY AGAIN"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 92!
+    (LEX)TK_Integer=1920 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 93!
+    (LEX)TK_Integer=1930 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=T$
+    (normal)basiclval.stype='T$'
+    Processing line 94!
+    (LEX)TK_Integer=1940 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S7
+    (normal)basiclval.stype='S7'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 95!
+    (LEX)TK_Integer=1950 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=T$
+    (normal)basiclval.stype='T$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1060 YYSTATE=3
+    Processing line 96!
+    (LEX)TK_Integer=1960 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=3660 YYSTATE=3
+    Processing line 97!
+    (LEX)TK_Integer=1970 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 98!
+    (LEX)TK_Integer=1980 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=K
+    (normal)basiclval.stype='K'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 99!
+    (LEX)TK_Integer=1990 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2360 YYSTATE=3
+    Processing line 100!
+    (LEX)TK_Integer=2000 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"DO YOU WANT TO SEE THE PICTURE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DO YOU WANT TO SEE THE PICTURE"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 101!
+    (LEX)TK_Integer=2010 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=T2$
+    (normal)basiclval.stype='T2$'
+    Processing line 102!
+    (LEX)TK_Integer=2020 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=T2$
+    (normal)basiclval.stype='T2$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"N"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 103!
+    (LEX)TK_Integer=2030 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"       *-:-*"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="       *-:-*"
+    Processing line 104!
+    (LEX)TK_Integer=2040 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"     %&     &%"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="     %&     &%"
+    Processing line 105!
+    (LEX)TK_Integer=2050 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    #         #"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    #         #"
+    Processing line 106!
+    (LEX)TK_Integer=2060 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=8 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 107!
+    (LEX)TK_Integer=2070 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   ^  (.) (.)  ^"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   ^  (.) (.)  ^"
+    Processing line 108!
+    (LEX)TK_Integer=2080 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=7 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 109!
+    (LEX)TK_Integer=2090 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '" <<<           >>>"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" <<<           >>>"
+    Processing line 110!
+    (LEX)TK_Integer=2100 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=6 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 111!
+    (LEX)TK_Integer=2110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   !    :?:    !"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   !    :?:    !"
+    Processing line 112!
+    (LEX)TK_Integer=2120 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=5 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 113!
+    (LEX)TK_Integer=2130 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   *  -     -  *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   *  -     -  *"
+    Processing line 114!
+    (LEX)TK_Integer=2140 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   '   +++++   '"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   '   +++++   '"
+    Processing line 115!
+    (LEX)TK_Integer=2150 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   &           &"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   &           &"
+    Processing line 116!
+    (LEX)TK_Integer=2160 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    %%%     %%%"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    %%%     %%%"
+    Processing line 117!
+    (LEX)TK_Integer=2170 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"      :!#$#!:"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="      :!#$#!:"
+    Processing line 118!
+    (LEX)TK_Integer=2180 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=4 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 119!
+    (LEX)TK_Integer=2190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"         I"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="         I"
+    Processing line 120!
+    (LEX)TK_Integer=2200 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"         I"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="         I"
+    Processing line 121!
+    (LEX)TK_Integer=2210 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"         I"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="         I"
+    Processing line 122!
+    (LEX)TK_Integer=2220 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=3 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 123!
+    (LEX)TK_Integer=2230 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"???????????????????"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="???????????????????"
+    Processing line 124!
+    (LEX)TK_Integer=2240 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=2 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 125!
+    (LEX)TK_Integer=2250 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"         @"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="         @"
+    Processing line 126!
+    (LEX)TK_Integer=2260 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"         @"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="         @"
+    Processing line 127!
+    (LEX)TK_Integer=2270 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"         @"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="         @"
+    Processing line 128!
+    (LEX)TK_Integer=2280 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=E1
+    (normal)basiclval.stype='E1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2380 YYSTATE=3
+    Processing line 129!
+    (LEX)TK_Integer=2290 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"        ( )"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="        ( )"
+    Processing line 130!
+    (LEX)TK_Integer=2300 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"       (   )"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="       (   )"
+    Processing line 131!
+    (LEX)TK_Integer=2310 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"      (     )"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="      (     )"
+    Processing line 132!
+    (LEX)TK_Integer=2320 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"     (       )"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="     (       )"
+    Processing line 133!
+    (LEX)TK_Integer=2330 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    (         )"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    (         )"
+    Processing line 134!
+    (LEX)TK_Integer=2340 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   (           )"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   (           )"
+    Processing line 135!
+    (LEX)TK_Integer=2350 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"  (#$%&     &%$#)"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="  (#$%&     &%$#)"
+    Processing line 136!
+    (LEX)TK_Integer=2360 YYSTATE=0
+    isym=24 name='let' sz=3 token=286
+    pb=1 yytext='LETW' token=286
+    pb=1 yytext='LET' token=286
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 137!
+    (LEX)TK_Integer=2370 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T2
+    (normal)basiclval.stype='T2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1220 YYSTATE=3
+    Processing line 138!
+    (LEX)TK_Integer=2380 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S
+    (normal)basiclval.stype='S'
+    Processing line 139!
+    (LEX)TK_Integer=2390 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=B$
+    (normal)basiclval.stype='B$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2410 YYSTATE=3
+    Processing line 140!
+    (LEX)TK_Integer=2400 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1580 YYSTATE=3
+    Processing line 141!
+    (LEX)TK_Integer=2410 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 142!
+    (LEX)TK_Integer=2420 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"VERY GOOD! YOU WIN!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="VERY GOOD! YOU WIN!"
+    Processing line 143!
+    (LEX)TK_Integer=2430 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"DO YOU WANT TO PLAY AGAIN"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DO YOU WANT TO PLAY AGAIN"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 144!
+    (LEX)TK_Integer=2440 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=S7
+    (normal)basiclval.stype='S7'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 145!
+    (LEX)TK_Integer=2450 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=H8$
+    (normal)basiclval.stype='H8$'
+    Processing line 146!
+    (LEX)TK_Integer=2460 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=H8$
+    (normal)basiclval.stype='H8$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1060 YYSTATE=3
+    Processing line 147!
+    (LEX)TK_Integer=2470 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=3660 YYSTATE=3
+    Processing line 148!
+    (LEX)TK_Integer=2480 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 149!
+    (LEX)TK_Integer=2490 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 150!
+    (LEX)TK_Integer=2500 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='W'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 151!
+    (LEX)TK_Integer=2510 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='11'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    Processing line 152!
+    (LEX)TK_Integer=2520 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 153!
+    (LEX)TK_Integer=2530 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='12'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 154!
+    (LEX)TK_Integer=2540 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='14'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 155!
+    (LEX)TK_Integer=2550 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    Processing line 156!
+    (LEX)TK_Integer=2560 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 157!
+    (LEX)TK_Integer=2570 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 158!
+    (LEX)TK_Integer=2580 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='11'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 159!
+    (LEX)TK_Integer=2590 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 160!
+    (LEX)TK_Integer=2600 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 161!
+    (LEX)TK_Integer=2610 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='11'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 162!
+    (LEX)TK_Integer=2620 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 163!
+    (LEX)TK_Integer=2630 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 164!
+    (LEX)TK_Integer=2640 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='J'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 165!
+    (LEX)TK_Integer=2650 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='V'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 166!
+    (LEX)TK_Integer=2660 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    Processing line 167!
+    (LEX)TK_Integer=2670 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='13'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 168!
+    (LEX)TK_Integer=2680 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 169!
+    (LEX)TK_Integer=2690 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='W'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 170!
+    (LEX)TK_Integer=2700 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Z'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    Processing line 171!
+    (LEX)TK_Integer=2710 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 172!
+    (LEX)TK_Integer=2720 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    Processing line 173!
+    (LEX)TK_Integer=2730 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='11'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 174!
+    (LEX)TK_Integer=2740 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 175!
+    (LEX)TK_Integer=2750 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 176!
+    (LEX)TK_Integer=2760 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 177!
+    (LEX)TK_Integer=2770 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    Processing line 178!
+    (LEX)TK_Integer=2780 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 179!
+    (LEX)TK_Integer=2790 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='V'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 180!
+    (LEX)TK_Integer=2800 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 181!
+    (LEX)TK_Integer=2810 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    Processing line 182!
+    (LEX)TK_Integer=2820 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 183!
+    (LEX)TK_Integer=2830 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='13'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Z'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 184!
+    (LEX)TK_Integer=2840 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 185!
+    (LEX)TK_Integer=2850 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 186!
+    (LEX)TK_Integer=2860 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='V'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 187!
+    (LEX)TK_Integer=2870 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='12'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 188!
+    (LEX)TK_Integer=2880 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    Processing line 189!
+    (LEX)TK_Integer=2890 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='14'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 190!
+    (LEX)TK_Integer=2900 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 191!
+    (LEX)TK_Integer=2910 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 192!
+    (LEX)TK_Integer=2920 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    Processing line 193!
+    (LEX)TK_Integer=2930 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    Processing line 194!
+    (LEX)TK_Integer=2940 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='11'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 195!
+    (LEX)TK_Integer=2950 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 196!
+    (LEX)TK_Integer=2960 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 197!
+    (LEX)TK_Integer=2970 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 198!
+    (LEX)TK_Integer=2980 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='11'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 199!
+    (LEX)TK_Integer=2990 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 200!
+    (LEX)TK_Integer=3000 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 201!
+    (LEX)TK_Integer=3010 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    Processing line 202!
+    (LEX)TK_Integer=3020 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 203!
+    (LEX)TK_Integer=3030 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 204!
+    (LEX)TK_Integer=3040 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='V'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 205!
+    (LEX)TK_Integer=3050 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    Processing line 206!
+    (LEX)TK_Integer=3060 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    Processing line 207!
+    (LEX)TK_Integer=3070 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 208!
+    (LEX)TK_Integer=3080 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    Processing line 209!
+    (LEX)TK_Integer=3090 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 210!
+    (LEX)TK_Integer=3100 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 211!
+    (LEX)TK_Integer=3110 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    Processing line 212!
+    (LEX)TK_Integer=3120 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 213!
+    (LEX)TK_Integer=3130 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    Processing line 214!
+    (LEX)TK_Integer=3140 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    Processing line 215!
+    (LEX)TK_Integer=3150 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 216!
+    (LEX)TK_Integer=3160 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 217!
+    (LEX)TK_Integer=3170 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='J'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 218!
+    (LEX)TK_Integer=3180 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 219!
+    (LEX)TK_Integer=3190 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 220!
+    (LEX)TK_Integer=3200 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    Processing line 221!
+    (LEX)TK_Integer=3210 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 222!
+    (LEX)TK_Integer=3220 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 223!
+    (LEX)TK_Integer=3230 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 224!
+    (LEX)TK_Integer=3240 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    Processing line 225!
+    (LEX)TK_Integer=3250 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 226!
+    (LEX)TK_Integer=3260 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 227!
+    (LEX)TK_Integer=3270 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='W'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    Processing line 228!
+    (LEX)TK_Integer=3280 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    Processing line 229!
+    (LEX)TK_Integer=3290 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    Processing line 230!
+    (LEX)TK_Integer=3300 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    Processing line 231!
+    (LEX)TK_Integer=3310 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Q'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 232!
+    (LEX)TK_Integer=3320 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 233!
+    (LEX)TK_Integer=3330 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    Processing line 234!
+    (LEX)TK_Integer=3340 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='K'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    Processing line 235!
+    (LEX)TK_Integer=3350 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='K'
+    Processing line 236!
+    (LEX)TK_Integer=3360 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='5'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='W'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 237!
+    (LEX)TK_Integer=3370 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 238!
+    (LEX)TK_Integer=3380 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 239!
+    (LEX)TK_Integer=3390 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    Processing line 240!
+    (LEX)TK_Integer=3400 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='V'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 241!
+    (LEX)TK_Integer=3410 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 242!
+    (LEX)TK_Integer=3420 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    Processing line 243!
+    (LEX)TK_Integer=3430 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='X'
+    Processing line 244!
+    (LEX)TK_Integer=3440 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 245!
+    (LEX)TK_Integer=3450 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 246!
+    (LEX)TK_Integer=3460 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 247!
+    (LEX)TK_Integer=3470 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='X'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    Processing line 248!
+    (LEX)TK_Integer=3480 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    Processing line 249!
+    (LEX)TK_Integer=3490 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='13'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 250!
+    (LEX)TK_Integer=3500 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='6'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    Processing line 251!
+    (LEX)TK_Integer=3510 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 252!
+    (LEX)TK_Integer=3520 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 253!
+    (LEX)TK_Integer=3530 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Y'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    Processing line 254!
+    (LEX)TK_Integer=3540 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    Processing line 255!
+    (LEX)TK_Integer=3550 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='13'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='Z'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    Processing line 256!
+    (LEX)TK_Integer=3560 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='G'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    Processing line 257!
+    (LEX)TK_Integer=3570 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='D'
+    Processing line 258!
+    (LEX)TK_Integer=3580 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='9'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    Processing line 259!
+    (LEX)TK_Integer=3590 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='7'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='H'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 260!
+    (LEX)TK_Integer=3600 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='O'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='P'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    Processing line 261!
+    (LEX)TK_Integer=3610 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='8'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='R'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='M'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='I'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    Processing line 262!
+    (LEX)TK_Integer=3620 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='4'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='T'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 263!
+    (LEX)TK_Integer=3630 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='3'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='F'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='U'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='N'
+    Processing line 264!
+    (LEX)TK_Integer=3640 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='10'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='C'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='S'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='A'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='B'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='L'
+    (LEX)NOTYPE=','
+    (LEX)TK_String='E'
+    Processing line 265!
+    (LEX)TK_Integer=3650 YYSTATE=0
+    (LEX)TK_Data='DATA'
+    (LEX)TK_String='-033'
+    Processing line 266!
+    (LEX)TK_Integer=3660 YYSTATE=0
+    (LEX)TK_End='END'
+    Processing line 267!
+    Sorting Symbols ...
+    Grab Labels ...
+    Update Vars ...
+    Mark All Routines ...
+    Display Initial Code ...
+    TStatement::_RtnCount-1=0
+    Fixup targets that are on comments.
+    FixupTargets() stmt:'1010 PRINT "BASIC LIBRARY--'HANGMN'--18-JUL-70"'
+    FixupTargets() stmt:'1020 REM  *  *  *  *  *  *  *  MAIN PROGRAM  *  *  *  *  *  *  *  *  *  *'
+    FixupTargets() stmt:'1030 REM'
+    FixupTargets() stmt:'1040 RANDOMIZE'
+    FixupTargets() stmt:'1050 LET S7=1'
+    FixupTargets() stmt:'1060 PRINT"DO YOU WANT TO SEE THE INSTRUCTIONS";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1070 INPUT N7$'
+    FixupTargets() stmt:'1080 IF N7$="N" THEN 1170'
+    FixupTargets() stmt:'1090 PRINT'
+    FixupTargets() stmt:'1100 PRINT"THIS GAME IS SOMETHING LIKE HANGMAN.  THE MACHINE CHOOSES"'
+    FixupTargets() stmt:'1110 PRINT"A WORD OUT OF ITS STORAGE AND YOU ARE REQUIRED TO GUESS THE"'
+    FixupTargets() stmt:'1120 PRINT"WORD LETTER BY LETTER.  AFTER EACH MISTAKE, YOU WILL BE ASKED"'
+    FixupTargets() stmt:'1130 PRINT"WHETHER YOU WANT TO SEE A PICTURE OF YOURSELF.  THE MORE"'
+    FixupTargets() stmt:'1140 PRINT"MISTAKES YOU MAKE, THE LESS OF YOU THERE WILL BE. UNTIL"'
+    FixupTargets() stmt:'1150 PRINT"AFTER 9 MISTAKES, YOU WILL BE ALL GONE, AND YOU WILL"'
+    FixupTargets() stmt:'1160 PRINT"LOSE."'
+    FixupTargets() stmt:'1170 LET T2=0'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1180 PRINT'
+    FixupTargets() stmt:'1190 PRINT"WOULD YOU LIKE TO SEE THE WHOLE PICTURE BEFORE THE GAME STARTS";'
+    FixupTargets() stmt:'1200 INPUT Q9$'
+    FixupTargets() stmt:'1210 IF Q9$="Y" THEN 2030'
+    FixupTargets() stmt:'1220 LET T2=1'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1230 IF S7=0 THEN 1430'
+    FixupTargets() stmt:'1240 LET Q=0'
+    FixupTargets() stmt:'1250 LET L=1'
+    FixupTargets() stmt:'1260 DIM S(200)'
+    FixupTargets() stmt:'1270 DIM F$(2000)'
+    FixupTargets() stmt:'1280 DIM A$(20)'
+    FixupTargets() stmt:'1290 DIM B$(20)'
+    FixupTargets() stmt:'1300 DIM I(200)'
+    FixupTargets() stmt:'1310 LET O1=1'
+    FixupTargets() stmt:'1320 READ S(O1)'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1330 IF S(O1)<0 THEN 1420'
+    FixupTargets() stmt:'1340 LET I(O1)=L'
+    FixupTargets() stmt:'1350 FOR O=L TO L+S(O1)-1'
+    FixupTargets() stmt:'1360 READ F$(O)'
+    FixupTargets() stmt:'1370 NEXT O'
+    FixupTargets() stmt:'1380 LET Q=Q+1'
+    FixupTargets() stmt:'1390 LET L=L+S(O1)'
+    FixupTargets() stmt:'1400 LET O1=O1+1'
+    FixupTargets() stmt:'1410 GO TO 1320'
+    FixupTargets() stmt:'1420 LET O1=O1-1'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1430 LET R=INT(1+O1*RND)'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1440 LET S=S(R)'
+    FixupTargets() stmt:'1450 LET O6=I(R)'
+    FixupTargets() stmt:'1460 FOR Z2=1 TO S(R)'
+    FixupTargets() stmt:'1470 LET O6=I(R)'
+    FixupTargets() stmt:'1480 LET A$(Z2)=F$(O6+Z2-1)'
+    FixupTargets() stmt:'1490 NEXT Z2'
+    FixupTargets() stmt:'1500 DIM U$(26)'
+    FixupTargets() stmt:'1510 DIM E$(26)'
+    FixupTargets() stmt:'1520 LET V=1'
+    FixupTargets() stmt:'1530 FOR I=1 TO S'
+    FixupTargets() stmt:'1540 LET B$(I)=" - "'
+    FixupTargets() stmt:'1550 NEXT I'
+    FixupTargets() stmt:'1560 GO TO 1740'
+    FixupTargets() stmt:'1570 PRINT'
+    FixupTargets() stmt:'1580 PRINT"WHAT IS YOUR GUESS";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1590 LET K=1'
+    FixupTargets() stmt:'1600 INPUT G$'
+    FixupTargets() stmt:'1610 FOR Y=1 TO S'
+    FixupTargets() stmt:'1620 IF G$=A$(Y) THEN 1640'
+    FixupTargets() stmt:'1630 GO TO 1650'
+    FixupTargets() stmt:'1640 LET K=0'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1650 NEXT Y'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1660 IF K=0 THEN 1690'
+    FixupTargets() stmt:'1670 LET E$(V)=G$'
+    FixupTargets() stmt:'1680 LET V=V+1'
+    FixupTargets() stmt:'1690 FOR T=1 TO S '
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1700 IF G$=A$(T) THEN 1720'
+    FixupTargets() stmt:'1710 GO TO 1730'
+    FixupTargets() stmt:'1720 LET B$(T)=G$'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1730 NEXT T'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1740 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1750 FOR I=1 TO S'
+    FixupTargets() stmt:'1760 PRINT B$(I);'
+    FixupTargets() stmt:'1770 NEXT I'
+    FixupTargets() stmt:'1780 PRINT " ",'
+    FixupTargets() stmt:'1790 FOR G6=1 TO V-1'
+    FixupTargets() stmt:'1800 PRINT E$(G6);'
+    FixupTargets() stmt:'1810 NEXT G6'
+    FixupTargets() stmt:'1820 PRINT'
+    FixupTargets() stmt:'1830 LET E1=V-1'
+    FixupTargets() stmt:'1840 IF E1<9 THEN 1970'
+    FixupTargets() stmt:'1850 PRINT"I WIN..."'
+    FixupTargets() stmt:'1860 PRINT"THE CORRECT ANSWER IS ";'
+    FixupTargets() stmt:'1870 FOR Z2=1 TO S'
+    FixupTargets() stmt:'1880 PRINT A$(Z2);'
+    FixupTargets() stmt:'1890 NEXT Z2'
+    FixupTargets() stmt:'1900 PRINT'
+    FixupTargets() stmt:'1910 PRINT " DO YOU WANT TO PLAY AGAIN";'
+    FixupTargets() stmt:'1920 LET W=1'
+    FixupTargets() stmt:'1930 INPUT T$'
+    FixupTargets() stmt:'1940 LET S7=0'
+    FixupTargets() stmt:'1950 IF T$="Y" THEN 1060'
+    FixupTargets() stmt:'1960 GO TO 3660'
+    FixupTargets() stmt:'1970 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1980 IF K=0 THEN 2380'
+    FixupTargets() stmt:'1990 IF W=1 THEN 2360'
+    FixupTargets() stmt:'2000 PRINT"DO YOU WANT TO SEE THE PICTURE";'
+    FixupTargets() stmt:'2010 INPUT T2$'
+    FixupTargets() stmt:'2020 IF T2$="N" THEN2380'
+    FixupTargets() stmt:'2030 PRINT"       *-:-*"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2040 PRINT"     %&     &%"'
+    FixupTargets() stmt:'2050 PRINT"    #         #"'
+    FixupTargets() stmt:'2060 IF E1=8 THEN 2380'
+    FixupTargets() stmt:'2070 PRINT"   ^  (.) (.)  ^"'
+    FixupTargets() stmt:'2080 IF E1=7 THEN 2380'
+    FixupTargets() stmt:'2090 PRINT" <<<           >>>"'
+    FixupTargets() stmt:'2100 IF E1=6 THEN 2380'
+    FixupTargets() stmt:'2110 PRINT"   !    :?:    !"'
+    FixupTargets() stmt:'2120 IF E1=5 THEN 2380'
+    FixupTargets() stmt:'2130 PRINT"   *  -     -  *"'
+    FixupTargets() stmt:'2140 PRINT"   '   +++++   '"'
+    FixupTargets() stmt:'2150 PRINT"   &           &"'
+    FixupTargets() stmt:'2160 PRINT"    %%%     %%%"'
+    FixupTargets() stmt:'2170 PRINT"      :!#$#!:"'
+    FixupTargets() stmt:'2180 IF E1=4 THEN 2380'
+    FixupTargets() stmt:'2190 PRINT"         I"'
+    FixupTargets() stmt:'2200 PRINT"         I"'
+    FixupTargets() stmt:'2210 PRINT"         I"'
+    FixupTargets() stmt:'2220 IF E1=3 THEN 2380'
+    FixupTargets() stmt:'2230 PRINT"???????????????????"'
+    FixupTargets() stmt:'2240 IF E1=2 THEN 2380'
+    FixupTargets() stmt:'2250 PRINT"         @"'
+    FixupTargets() stmt:'2260 PRINT"         @"'
+    FixupTargets() stmt:'2270 PRINT"         @"'
+    FixupTargets() stmt:'2280 IF E1=1 THEN 2380'
+    FixupTargets() stmt:'2290 PRINT"        ( )"'
+    FixupTargets() stmt:'2300 PRINT"       (   )"'
+    FixupTargets() stmt:'2310 PRINT"      (     )"'
+    FixupTargets() stmt:'2320 PRINT"     (       )"'
+    FixupTargets() stmt:'2330 PRINT"    (         )"'
+    FixupTargets() stmt:'2340 PRINT"   (           )"'
+    FixupTargets() stmt:'2350 PRINT"  (#$%&     &%$#)"'
+    FixupTargets() stmt:'2360 LETW=0'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2370 IF T2=0 THEN 1220'
+    FixupTargets() stmt:'2380 FOR I=1 TO S'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2390 IF A$(I)=B$(I) THEN 2410'
+    FixupTargets() stmt:'2400 GO TO 1580'
+    FixupTargets() stmt:'2410 NEXT I'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2420 PRINT"VERY GOOD! YOU WIN!"'
+    FixupTargets() stmt:'2430 PRINT"DO YOU WANT TO PLAY AGAIN";'
+    FixupTargets() stmt:'2440 LET S7=0'
+    FixupTargets() stmt:'2450 INPUT H8$'
+    FixupTargets() stmt:'2460 IF H8$="Y" THEN 1060'
+    FixupTargets() stmt:'2470 GO TO 3660'
+    FixupTargets() stmt:'2480 DATA 10,I,M,P,O,S,S,I,B,L,E,  5,I,D,I,O,T'
+    FixupTargets() stmt:'2490 DATA 9,A,P,A,T,H,E,T,I,C'
+    FixupTargets() stmt:'2500 DATA10,W,A,T,E,R,F,R,O,N,T'
+    FixupTargets() stmt:'2510 DATA11,C,O,L,L,E,C,T,I,O,N,S'
+    FixupTargets() stmt:'2520 DATA 9,Y,E,S,T,E,R,D,A,Y'
+    FixupTargets() stmt:'2530 DATA12,K,I,N,D,E,R,G,A,R,T,E,N'
+    FixupTargets() stmt:'2540 DATA14,A,D,M,I,N,I,S,T,R,A,T,I,O,N'
+    FixupTargets() stmt:'2550 DATA 8,E,M,P,H,A,S,I,S'
+    FixupTargets() stmt:'2560 DATA 9,E,D,U,C,A,T,I,O,N'
+    FixupTargets() stmt:'2570 DATA 10,R,E,C,I,P,R,O,C,A,L'
+    FixupTargets() stmt:'2580 DATA  11,D,E,C,L,A,R,A,T,I,O,N'
+    FixupTargets() stmt:'2590 DATA 7,P,I,T,C,H,E,R'
+    FixupTargets() stmt:'2600 DATA 10,S,U,P,E,R,S,O,N,I,C'
+    FixupTargets() stmt:'2610 DATA 11,C,O,M,M,E,N,D,A,B,L,E'
+    FixupTargets() stmt:'2620 DATA 7,P,A,S,S,A,G,E'
+    FixupTargets() stmt:'2630 DATA 10,P,E,R,C,E,N,T,A,G,E'
+    FixupTargets() stmt:'2640 DATA 5,J,O,I,N,T'
+    FixupTargets() stmt:'2650 DATA8,G,O,V,E,R,N,O,R'
+    FixupTargets() stmt:'2660 DATA 7,P,R,O,G,R,A,M'
+    FixupTargets() stmt:'2670 DATA 13,D,I,S,A,P,P,E,A,R,A,N,C,E'
+    FixupTargets() stmt:'2680 DATA 8,S,E,C,U,R,I,T,Y'
+    FixupTargets() stmt:'2690 DATA 7,W,E,L,C,O,M,E'
+    FixupTargets() stmt:'2700 DATA 4,Z,E,R,O'
+    FixupTargets() stmt:'2710 DATA9,P,O,T,E,N,T,I,A,L'
+    FixupTargets() stmt:'2720 DATA 8,C,O,M,P,O,S,E,D'
+    FixupTargets() stmt:'2730 DATA 11,P,O,S,S,I,B,I,L,I,T,Y'
+    FixupTargets() stmt:'2740 DATA 8,D,I,R,E,C,T,O,R'
+    FixupTargets() stmt:'2750 DATA 6,R,E,S,U,L,T'
+    FixupTargets() stmt:'2760 DATA 8,C,H,I,L,D,R,E,N'
+    FixupTargets() stmt:'2770 DATA 9,C,L,A,S,S,R,O,O,M'
+    FixupTargets() stmt:'2780 DATA 8,E,C,O,N,O,M,I,C'
+    FixupTargets() stmt:'2790 DATA 9,E,Q,U,I,V,O,C,A,L'
+    FixupTargets() stmt:'2800 DATA 7,H,O,S,T,I,L,E'
+    FixupTargets() stmt:'2810 DATA 7,R,O,G,U,I,S,H'
+    FixupTargets() stmt:'2820 DATA 9,M,I,G,R,A,T,I,O,N'
+    FixupTargets() stmt:'2830 DATA 13,A,U,T,H,O,R,I,Z,A,T,I,O,N'
+    FixupTargets() stmt:'2840 DATA 7,C,U,R,S,O,R,Y'
+    FixupTargets() stmt:'2850 DATA 5,M,O,N,E,Y'
+    FixupTargets() stmt:'2860 DATA 7,A,B,S,O,L,V,E'
+    FixupTargets() stmt:'2870 DATA 12,P,R,E,R,E,Q,U,I,S,I,T,E'
+    FixupTargets() stmt:'2880 DATA 7,I,N,S,I,P,I,D'
+    FixupTargets() stmt:'2890 DATA 14 ,C,O,N,G,L,O,M,E,R,A,T,I,O,N'
+    FixupTargets() stmt:'2900 DATA 10,N,E,G,O,T,I,A,B,L,E'
+    FixupTargets() stmt:'2910 DATA 7,D,E,P,O,S,I,T'
+    FixupTargets() stmt:'2920 DATA 4,L,A,M,P'
+    FixupTargets() stmt:'2930 DATA 9,Q,U,A,L,I,F,I,E,D'
+    FixupTargets() stmt:'2940 DATA 11,M,A,I,N,T,E,N,A,N,C,E'
+    FixupTargets() stmt:'2950 DATA 7,F,U,N,E,R,A,L'
+    FixupTargets() stmt:'2960 DATA 9,C,A,R,P,E,N,T,E,R'
+    FixupTargets() stmt:'2970 DATA 5,F,U,G,U,E'
+    FixupTargets() stmt:'2980 DATA 11,M,A,N,U,F,A,C,T,U,R,E'
+    FixupTargets() stmt:'2990 DATA 6,B,A,K,E,R,Y'
+    FixupTargets() stmt:'3000 DATA 8,M,I,L,I,T,A,R,Y'
+    FixupTargets() stmt:'3010 DATA 5,G,U,A,R,D'
+    FixupTargets() stmt:'3020 DATA 9,T,E,C,H,N,I,C,A,L'
+    FixupTargets() stmt:'3030 DATA 8,S,Y,M,P,H,O,N,Y'
+    FixupTargets() stmt:'3040 DATA 7,A,D,V,A,N,C,E'
+    FixupTargets() stmt:'3050 DATA 7,M,I,N,I,M,U,M'
+    FixupTargets() stmt:'3060 DATA 9,A,L,E,R,T,N,E,S,S'
+    FixupTargets() stmt:'3070 DATA 7,Q,U,A,R,T,E,T'
+    FixupTargets() stmt:'3080 DATA 6,P,O,L,I,S,H'
+    FixupTargets() stmt:'3090 DATA 7,B,E,N,E,F,I,T'
+    FixupTargets() stmt:'3100 DATA 8,C,O,M,P,O,S,E,R'
+    FixupTargets() stmt:'3110 DATA 4,H,E,R,O'
+    FixupTargets() stmt:'3120 DATA 6,D,E,S,I,S,T'
+    FixupTargets() stmt:'3130 DATA 6,C,I,T,I,E,S'
+    FixupTargets() stmt:'3140 DATA 4,S,L,U,M'
+    FixupTargets() stmt:'3150 DATA 6,R,E,G,I,M,E'
+    FixupTargets() stmt:'3160 DATA 5,D,O,U,B,T'
+    FixupTargets() stmt:'3170 DATA 4,J,O,K,E'
+    FixupTargets() stmt:'3180 DATA 9,P,R,O,T,E,S,T,E,R'
+    FixupTargets() stmt:'3190 DATA 7,S,I,M,I,L,A,R'
+    FixupTargets() stmt:'3200 DATA 4,C,U,R,B'
+    FixupTargets() stmt:'3210 DATA 5,E,L,I,T,E'
+    FixupTargets() stmt:'3220 DATA 8,M,E,D,I,C,A,R,E'
+    FixupTargets() stmt:'3230 DATA 5,M,A,Y,O,R'
+    FixupTargets() stmt:'3240 DATA 4,F,U,N,D'
+    FixupTargets() stmt:'3250 DATA 6,A,C,T,I,O,N'
+    FixupTargets() stmt:'3260 DATA 6,C,L,O,U,D,Y'
+    FixupTargets() stmt:'3270 DATA 4,N,E,W,S'
+    FixupTargets() stmt:'3280 DATA 5,Y,O,U,N,G'
+    FixupTargets() stmt:'3290 DATA 5,M,A,F,I,A'
+    FixupTargets() stmt:'3300 DATA 9,G,U,E,R,R,I,L,L,A'
+    FixupTargets() stmt:'3310 DATA 7,R,E,Q,U,E,S,T'
+    FixupTargets() stmt:'3320 DATA 7,G,O,U,R,M,E,T'
+    FixupTargets() stmt:'3330 DATA 3,P,U,B'
+    FixupTargets() stmt:'3340 DATA 8,S,K,I,R,M,I,S,H'
+    FixupTargets() stmt:'3350 DATA 5,B,L,A,C,K'
+    FixupTargets() stmt:'3360 DATA 5,W,H,I,T,E'
+    FixupTargets() stmt:'3370 DATA 7,H,I,S,T,O,R,Y'
+    FixupTargets() stmt:'3380 DATA 6,P,O,L,I,C,Y'
+    FixupTargets() stmt:'3390 DATA 9,G,Y,M,N,A,S,I,U,M'
+    FixupTargets() stmt:'3400 DATA 7,V,E,H,I,C,L,E'
+    FixupTargets() stmt:'3410 DATA 9,A,U,T,O,M,O,T,O,N'
+    FixupTargets() stmt:'3420 DATA 6,B,L,I,G,H,T'
+    FixupTargets() stmt:'3430 DATA 3,S,I,X'
+    FixupTargets() stmt:'3440 DATA 4,C,A,L,L'
+    FixupTargets() stmt:'3450 DATA 9,P,S,Y,C,H,O,T,I,C'
+    FixupTargets() stmt:'3460 DATA 8,N,E,U,R,O,T,I,C'
+    FixupTargets() stmt:'3470 DATA 7,A,N,X,I,E,T,Y'
+    FixupTargets() stmt:'3480 DATA 7,S,Y,M,P,T,O,M'
+    FixupTargets() stmt:'3490 DATA13,H,Y,P,O,C,H,O,N,D,R,I,A,C'
+    FixupTargets() stmt:'3500 DATA 6,P,H,O,B,I,A'
+    FixupTargets() stmt:'3510 DATA 9,O,B,S,E,S,S,I,O,N'
+    FixupTargets() stmt:'3520 DATA10,C,O,M,P,U,L,S,I,O,N'
+    FixupTargets() stmt:'3530 DATA 8,H,Y,S,T,E,R,I,A'
+    FixupTargets() stmt:'3540 DATA 7,A,M,N,E,S,I,A'
+    FixupTargets() stmt:'3550 DATA13,S,C,H,I,Z,O,P,H,R,E,N,I,A'
+    FixupTargets() stmt:'3560 DATA 9,P,R,O,G,N,O,S,I,S'
+    FixupTargets() stmt:'3570 DATA 8,P,A,R,A,N,O,I,D'
+    FixupTargets() stmt:'3580 DATA 9,C,A,T,A,T,O,N,I,C'
+    FixupTargets() stmt:'3590 DATA 7,A,L,C,O,H,O,L'
+    FixupTargets() stmt:'3600 DATA 8,C,O,M,P,U,T,E,R'
+    FixupTargets() stmt:'3610 DATA 8,T,E,R,M,I,N,A,L'
+    FixupTargets() stmt:'3620 DATA 4,C,U,T,E'
+    FixupTargets() stmt:'3630 DATA 3,F,U,N'
+    FixupTargets() stmt:'3640 DATA10,A,C,C,E,S,S,A,B,L,E'
+    FixupTargets() stmt:'3650 DATA -103'
+    FixupTargets() stmt:'3660 END'
+      Target is GOSUB or GOTO
+    Finished FixupTargets
+    Split Overlapping Subroutines ...
+    Straighten Overlapping Subroutines ...
+    Renumber Source ...
+    Display Empty Code Ranges ...
+    Display Symbol Table ...
+    Display of final 'clean' BASIC listing ...
+    TStatement::_RtnCount-1=0
+    Finished!!!
+<--- int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2210]
